@@ -1,0 +1,16 @@
+:root{
+  --pallet1: #07ab80;
+}
+
+.bg-green-theme{
+  background-color: var(--pallet1);
+}
+
+.bg-img{
+background-image: url(https://via.placeholder.com/150);
+background-size: cover;
+}
+
+.dumb-design{
+  position: absolute;
+}
