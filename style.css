@@ -1,16 +1,47 @@
 :root{
   --pallet1: #07ab80;
+  --pallet2: #8f8e98;
+  --pallet3: #5b636e;
 }
 
 .bg-green-theme{
   background-color: var(--pallet1);
 }
 
+.text-green-theme{
+  color: var(--pallet1);
+}
+
+.text-light-theme{
+  color: var(--pallet2);
+}
+
+.text-dark-theme{
+  color: var(--pallet3);
+}
+
 .bg-img{
-background-image: url(https://via.placeholder.com/150);
+background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hand-held-bbq-favorites-royalty-free-image-694189032-1564779029.jpg?crop=1.00xw:0.669xh;0,0.0919xh&resize=768:*);
 background-size: cover;
 }
 
+
 .dumb-design{
   position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .dumb-design {
+      position: relative;
+  }
+}
+
+.border-custom{
+  border-style: none none none solid;
+  border-color: var(--pallet1);
+  border-width: 10px;
+}
+
+.text-light{
+  font-family: 'PT Sans', sans-serif;
 }

@@ -10,29 +10,25 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
-  <style>
-    * {
-      outline: 1px solid red;
-    }
-  </style>
   <title>Site Clone Checkpoint</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-light bg-success">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-light bg-green-theme sticky-top">
+    <a class="navbar-brand text-light" href="#"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> Eat-a-Thon</a>
   </nav>
 
   <div class="container-fluid">
 
     <div class="row bg-img">
-      <div class="col-3">
-        <h4 class="text-light mt-5">Lorem, ipsum.</h4>
-        <form class="card m-5 p-4">
-          <h4 class="text-success">Lorem ipsum dolor sit.</h4>
+      <div class="col-lg-4 col-md-6 col-sm-9 m-auto">
+        <h4 class="text-light mt-5 mx-4">free food pics</h4>
+        <form class="card mb-5 mx-4 p-4">
+          <h4 class="text-green-theme">Sign up for free food</h4>
           <div class="form">
             <div class="form-group">
               <input type="email" placeholder="Name" class="form-control" id="inputEmail4">
@@ -62,32 +58,41 @@
               </label>
             </div>
           </div>
-          <button type="submit" class="btn btn-light text-success">Submit</button>
+          <button type="submit" class="btn btn-light text-green-theme"><b>Submit</b></button>
         </form>
       </div>
-      <div class="col-9 d-flex justify-content-center mt-5">
-        <div class="bg-success" style=" height:80px; width: 5px; "></div>
-        <div class="">
-          <h3 class="text-light">Lorem, ipsum dolor.</h3>
-          <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos quisquam soluta
-            nulla doloribus, hic optio cumque ullam tempora iure. Nostrum perspiciatis non ex dolorem numquam ad omnis
-            debitis voluptates?</p>
+
+      <div class="col-8 mt-5 d-none d-lg-block">
+
+        <div class="m-5">
+          <h2 class="text-light pl-5">Food for the eye</h2>
+          <p class="text-light pl-5 border-custom" style="width: 60%;">if you can read
+            this you have
+            great eye sight and
+            are
+            clearly not
+            hungry enough for this website! visually consume the food until it causes an overflowing craving for carbs
+            galor. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores porro mollitia maxime nesciunt amet
+            ipsa deleniti, quibusdam quasi magni fuga corporis aliquid, praesentium blanditiis veritatis adipisci quae,
+            non atque optio?</p>
         </div>
       </div>
     </div>
 
-    <div class="row bg-success text-secondary">
-      <div class="col-6 text-light p-5">
+    <div class="row bg-green-theme text-secondary">
+      <div class="col-md-6 text-light p-5 order-2 order-md-1">
         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, suscipit?</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, excepturi voluptate corporis, aperiam
           facilis id reprehenderit autem magni assumenda accusamus ex optio possimus officia modi cumque, dolorem harum
           blanditiis! Dolorem.</p>
       </div>
 
-      <div class="col-6 p-5">
+
+
+      <div class="col-md-6 p-5 order-1 order-md-2">
         <div class="card dumb-design">
           <div class="d-flex p-3">
-            <i class="fa fa-wrench fa-2x text-success" aria-hidden="true">
+            <i class="fa fa-wrench fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
               ipsum, dolor sit amet consectetur adipisicing
@@ -95,7 +100,7 @@
             </span>
           </div>
           <div class="d-flex p-3">
-            <i class="fa fa-car fa-2x text-success" aria-hidden="true">
+            <i class="fa fa-car fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
               ipsum, dolor sit amet consectetur adipisicing
@@ -103,7 +108,7 @@
             </span>
           </div>
           <div class="d-flex p-3">
-            <i class="fa fa-phone fa-2x text-success" aria-hidden="true">
+            <i class="fa fa-phone fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
               ipsum, dolor sit amet consectetur adipisicing
@@ -111,7 +116,7 @@
             </span>
           </div>
           <div class="d-flex p-3">
-            <i class="fa fa-comments fa-2x text-success" aria-hidden="true">
+            <i class="fa fa-comments fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
               ipsum, dolor sit amet consectetur adipisicing
@@ -119,7 +124,7 @@
             </span>
           </div>
           <div class="d-flex p-3">
-            <i class="fa fa-bolt fa-2x text-success" aria-hidden="true">
+            <i class="fa fa-bolt fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
               ipsum, dolor sit amet consectetur adipisicing
@@ -131,14 +136,16 @@
       </div>
     </div>
 
-    <div class="row my-5">
-      <div class="col-3 my-5">
-        <img src="//placehold.it/360x600" alt="">
+    <div class="row bg-white my-5">
+      <div class="col-md-3 my-5">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Food_Safety_1.svg/800px-Food_Safety_1.svg.png"
+          alt="" class="img-fluid">
       </div>
-      <div class="col-9 my-5 text-secondary">
+      <div class="col-md-9 my-5 text-secondary">
         <div class="m-5">
 
-          <h2 class="mb-3"><i class="fa fa-shield fa-3x text-success p-3" aria-hidden="true"></i>Lorem ipsum dolor
+          <h2 class="mb-3"><i class="fa fa-shield fa-3x text-green-theme p-3" aria-hidden="true"></i>Lorem ipsum dolor
             sit
             amet consectetur adipisicing elit. Laborum hic itaque at optio
             voluptatem.</h2>
@@ -148,13 +155,13 @@
             soluta aliquam eveniet minus delectus beatae non? Nostrum doloribus exercitationem in, fugit delectus nobis
             dolore facere natus voluptate est veritatis!
           </p>
-          <button class="btn btn-success m-5 d-flex ml-auto">More</button>
         </div>
+        <button class="btn text-light bg-green-theme m-5 d-flex ml-auto">More</button>
       </div>
     </div>
 
-    <div class="row justify-content-around">
-      <div class="col-3 card p-3 text-dark text-center my-5">
+    <div class="row justify-content-around mb-5">
+      <div class="col-md-3 col-10 order-md-1 order-2 card p-3 text-dark-theme text-center shadow my-5">
         <i class="fa fa-quote-left fa-2x text-left" aria-hidden="true">
         </i>
         <p class="mx-2">
@@ -163,12 +170,13 @@
           elit. Numquam quisquam odit voluptatibus. Necessitatibus,
           eius sint fuga tenetur dignissimos veniam accusantium labore hic, ipsum recusandae, magni earum sed obcaecati
           ea totam!</p>
-        <p class="text-success">name</p>
-        <p class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-green-theme">name</p>
+        <p class="text-green-theme">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
       </div>
-      <div class="col-3 card p-3 text-dark text-center">
-        <div class="d-flex justify-content-around text-success">
+
+      <div class="col-md-3 col-10 order-md-2 order-1 card p-3 text-dark-theme shadow text-center">
+        <div class="d-flex justify-content-around text-green-theme">
           <i class="fa fa-star fa-5x" aria-hidden="true"></i>
           <i class="fa fa-star fa-5x" aria-hidden="true"></i>
           <i class="fa fa-star fa-5x" aria-hidden="true"></i>
@@ -181,11 +189,11 @@
           elit. Numquam quisquam odit voluptatibus. Necessitatibus,
           eius sint fuga tenetur dignissimos veniam accusantium labore hic, ipsum recusandae, magni earum sed obcaecati
           ea totam!</p>
-        <p class="text-success">name</p>
-        <p class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-green-theme">name</p>
+        <p class="text-green-theme">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
       </div>
-      <div class="col-3 card p-3 text-dark text-center my-5">
+      <div class="col-md-3 col-10 order-3 card p-3 text-dark-theme shadow text-center my-5">
         <i class="fa fa-quote-left fa-2x text-left" aria-hidden="true">
         </i>
         <p class="mx-2">
@@ -194,17 +202,27 @@
           elit. Numquam quisquam odit voluptatibus. Necessitatibus,
           eius sint fuga tenetur dignissimos veniam accusantium labore hic, ipsum recusandae, magni earum sed obcaecati
           ea totam!</p>
-        <p class="text-success">name</p>
-        <p class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-green-theme">name</p>
+        <p class="text-green-theme">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
       </div>
     </div>
 
-    <div class="row"></div>
+    <div class="row bg-green-theme">
+      <div class="col-12 text-light p-5">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero similique quam beatae reiciendis harum et
+          labore aliquid? Similique odit doloremque eaque eius. Temporibus recusandae cumque nobis. Dolorum aliquam rem
+          incidunt!</p>
+      </div>
+    </div>
 
-    <div class="row"></div>
-
-
+    <div class="row justify-content-center p-4">
+      <div class="col-10 text-green-theme">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus architecto numquam dolorum. Quo numquam
+          ex amet dolorem. Et cupiditate explicabo itaque recusandae? Veniam maxime nisi porro ullam ea aliquam!</p>
+      </div>
+    </div>
 
   </div>
 </body>
