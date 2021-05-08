@@ -45,3 +45,8 @@ background-size: cover;
 .text-light{
   font-family: 'PT Sans', sans-serif;
 }
+
+.zoom:hover{
+  transition: transform .5s;
+  transform: scale(1.25)
+}

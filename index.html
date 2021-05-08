@@ -16,10 +16,18 @@
   <title>Site Clone Checkpoint</title>
 </head>
 
-<body>
+<body id="top">
 
   <nav class="navbar navbar-light bg-green-theme sticky-top">
-    <a class="navbar-brand text-light" href="#"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> Eat-a-Thon</a>
+    <a class="navbar-brand text-light" onclick="scrollToTop()" href="#"><i class="fa fa-cutlery fa-lg"
+        aria-hidden="true"></i> Eat-a-Thon</a>
+    <a class="navbar-brand text-light" onclick="scrollToEat()" href="#"><i class="fa fa-lemon-o fa-lg"
+        aria-hidden="true"></i> Food</a>
+    <a class="navbar-brand text-light" onclick="scrollReview()" href="#"><i class="fa fa-compass fa-lg"
+        aria-hidden="true"></i> Reviews</a>
+    <a class="navbar-brand text-light" onclick="scrollIndex()" href="#"><i class="fa fa-anchor fa-lg"
+        aria-hidden="true"></i> Index</a>
+
   </nav>
 
   <div class="container-fluid">
@@ -46,9 +54,7 @@
             </div>
           </div>
           <div class="form-row">
-
             <textarea class="form-control" placeholder="MESSAGE" id="exampleFormControlTextarea1" rows="3"></textarea>
-
           </div>
           <div class="form-group">
             <div class="form-check">
@@ -79,7 +85,7 @@
       </div>
     </div>
 
-    <div class="row bg-green-theme text-secondary">
+    <div id="how-to-eat" class="row bg-green-theme text-secondary">
       <div class="col-md-6 text-light p-5 order-2 order-md-1">
         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, suscipit?</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, excepturi voluptate corporis, aperiam
@@ -95,7 +101,7 @@
             <i class="fa fa-wrench fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
-              ipsum, dolor sit amet consectetur adipisicing
+              learn to eat while you work
               elit.
             </span>
           </div>
@@ -103,24 +109,21 @@
             <i class="fa fa-car fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
-              ipsum, dolor sit amet consectetur adipisicing
-              elit.
+              Learn to eat while you drive
             </span>
           </div>
           <div class="d-flex p-3">
             <i class="fa fa-phone fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
-              ipsum, dolor sit amet consectetur adipisicing
-              elit.
+              Learn to eat while you talk
             </span>
           </div>
           <div class="d-flex p-3">
             <i class="fa fa-comments fa-2x text-green-theme" aria-hidden="true">
             </i>
             <span class="mx-3">
-              ipsum, dolor sit amet consectetur adipisicing
-              elit.
+              connect with others while you eat
             </span>
           </div>
           <div class="d-flex p-3">
@@ -160,8 +163,8 @@
       </div>
     </div>
 
-    <div class="row justify-content-around mb-5">
-      <div class="col-md-3 col-10 order-md-1 order-2 card p-3 text-dark-theme text-center shadow my-5">
+    <div id="reviews" class="row justify-content-around mb-5">
+      <div class="col-md-3 col-10 order-md-1 order-2 card p-3 text-dark-theme text-center shadow my-5 zoom">
         <i class="fa fa-quote-left fa-2x text-left" aria-hidden="true">
         </i>
         <p class="mx-2">
@@ -175,7 +178,7 @@
 
       </div>
 
-      <div class="col-md-3 col-10 order-md-2 order-1 card p-3 text-dark-theme shadow text-center">
+      <div class="col-md-3 col-10 order-md-2 order-1 card p-3 text-dark-theme shadow text-center zoom">
         <div class="d-flex justify-content-around text-green-theme">
           <i class="fa fa-star fa-5x" aria-hidden="true"></i>
           <i class="fa fa-star fa-5x" aria-hidden="true"></i>
@@ -193,7 +196,7 @@
         <p class="text-green-theme">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
       </div>
-      <div class="col-md-3 col-10 order-3 card p-3 text-dark-theme shadow text-center my-5">
+      <div class="col-md-3 col-10 order-3 card p-3 text-dark-theme shadow text-center my-5 zoom">
         <i class="fa fa-quote-left fa-2x text-left" aria-hidden="true">
         </i>
         <p class="mx-2">
@@ -217,7 +220,7 @@
       </div>
     </div>
 
-    <div class="row justify-content-center p-4">
+    <div id="index" class="row justify-content-center p-4">
       <div class="col-10 text-green-theme">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus architecto numquam dolorum. Quo numquam
           ex amet dolorem. Et cupiditate explicabo itaque recusandae? Veniam maxime nisi porro ullam ea aliquam!</p>
@@ -226,5 +229,6 @@
 
   </div>
 </body>
+<script src="main.js"></script>
 
 </html>
